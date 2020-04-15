@@ -1,0 +1,109 @@
+@import 'vars';
+@import 'global';
+@import 'fonts';
+
+.header__top {
+    background-color: #e7ecf2;
+}
+
+.header__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+}
+
+.header__btn {
+    background-color: $blue;
+    padding: 4px 18px;
+    border-radius: 15px;
+    margin-left: auto;
+    margin-right: 50px;
+    a {
+        color: #fff;
+    }
+}
+.header__user {
+    display: flex;
+}
+
+.header__user-avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header__user-box {
+    margin-left: 20px;
+    a {
+        display: block;
+        font-size: 16px;
+        line-height: 22px;
+        font-weight: 500;
+    }
+    .header__user-balance {
+        color: $blue;
+    }
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    height: 80px;
+}
+
+.menu__list {
+    li {
+        font-size: 15px;
+        font-weight: 700;
+        text-transform: uppercase;
+        display: inline-block;
+        & + li {
+            margin-left: 35px;
+        }
+    }
+}
+
+.menu__inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+    &-form {
+        max-width: 360px;
+        width: 100%;
+        position: relative;
+        input {
+            display: block;
+            width: 100%;
+            height: 46px;
+            border-radius: 22px;
+            border: 1px solid #d9dfe5;
+            font-size: 15px;
+            outline: none;
+            padding-left: 25px;
+            padding-right: 85px;
+            &::placeholder {
+                color: $grey;
+            }
+        }
+        button {
+            width: 70px;
+            height: 46px;
+            border-radius: 22px;
+            position: absolute;
+            border: none;
+            background-color: $blue;
+            right: 0;
+            top: 0;
+            img {
+                width: 16px;
+                height: 16px;
+            }
+        }
+    }
+}
+
