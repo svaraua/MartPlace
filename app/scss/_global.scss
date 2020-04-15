@@ -14,13 +14,16 @@ body {
     font-size: 14px;
     line-height: 28px;
     color: #333;
-    background-color: blue;
 }
 
 a {
     display: inline-block;
     text-decoration: none;
     color: #333;
+}
+
+a, button {
+    cursor: pointer;
 }
 
 ul, li {
@@ -30,7 +33,7 @@ ul, li {
 }
 
 .container {
-    max-width: 1140px;
+    max-width: 1170px;
     margin: 0 auto;
     padding: 0 15px;
 }
