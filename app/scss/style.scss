@@ -14,13 +14,14 @@
     align-items: center;
     height: 100px;
 }
-
+  
 .header__btn {
     background-color: $blue;
     padding: 4px 18px;
-    border-radius: 15px;
+    border-radius: 20px;
     margin-left: auto;
     margin-right: 50px;
+    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.1);
     a {
         color: #fff;
     }
@@ -125,6 +126,7 @@
         font-size: 60px;
         line-height: 70px;
         margin-bottom: 30px;
+        text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.2);
         span {
             display: block;
             font-weight: 700;
@@ -134,10 +136,11 @@
         font-size: 20px;
         font-weight: 500;
         margin-bottom: 70px;
+        color: #f3f3f8;
     }
     &-links {
         a {
-            width: 190px;
+            padding: 0px 33px;
             height: 55px;
             border-radius: 26px;
             margin: 15px;
@@ -147,6 +150,7 @@
             background-color: transparent;
             color: #fff;
             border: 1px solid white;
+            box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.1);
             &:hover {
                 background-color: #fff;
                 color: #1136bf;
@@ -173,21 +177,22 @@
             height: 55px;
             padding: 0px 222px 0px 30px;
             border: 1px solid #dcdcdc;
-            border-right: none;
+            border-radius: 4px;
             outline: none;
             &::placeholder {
                 color: $grey;
             }
         }
         select {
-            max-width: 192px;
-            width: 100%;
+            min-width: 192px;
             height: 55px;
+            border: none;
             -webkit-appearance: none;
             appearance: none;
             padding-left: 20px;
+            padding-right: 40px;
             margin-left: -4px;
-            border: 1px solid #dcdcdc;
+            border-left: 1px solid #dcdcdc;
             outline: none;
             position: absolute;
             top: 40px;
@@ -198,7 +203,7 @@
             width: 223px;
             height: 55px;
             background-color: $blue;
-            border-radius: 6px;
+            border-radius: 4px;
             border: none;
             color: #fff;
             margin-left: 30px;
@@ -224,6 +229,43 @@
 
 .content {
     min-height: 710px;
+    padding-top: 185px;
+    padding-bottom: 120px;
+}
+
+.content__inner {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    &-item {
+        width: 365px;
+        height: 405px;
+        padding: 40px 0px 50px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        &:hover {
+            box-shadow: 0px 2px 50px 0px rgba(0, 0, 0, 0.08);
+        }
+        .content__item-img {
+            width: 120px;
+            height: 120px;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+        .content__item-title {
+            font-size: 24px;
+            color: #010101;
+            margin-top: 30px;
+            margin-bottom: 20px;
+        }
+        .content__item-text {
+            font-size: 16px;
+            line-height: 30px;
+            color: #555555;
+            padding: 0px 30px;
+        }
+    }
 }
 
 //End content
@@ -247,6 +289,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    border-radius: 4px;
     background-color: #fff;
     box-shadow: 0px 1px 2px 0px rgba(90, 93, 100, 0.1);
     &-title {
@@ -288,6 +331,7 @@
     font-size: 15px;
     line-height: 22px;
     box-shadow: 0px 1px 2px 0px rgba(90, 93, 100, 0.1);
+    border-radius: 4px;
     button {
         padding: 7px 20px;
         border-radius: 15px;
@@ -330,6 +374,7 @@ box-shadow: 0px 2px 4px 0px rgba(108, 111, 115, 0.1);
         justify-content: center;
         align-items: center;
         transition: all 1s;
+        opacity: 0.9;
     }
     &:hover .item__btn a {
             display: block;
@@ -417,7 +462,8 @@ box-shadow: 0px 2px 4px 0px rgba(108, 111, 115, 0.1);
     font-weight: 700;
     &-price {
         background-color: #e6f1fd;
-        width: 60px;
+        min-width: 60px;
+        padding: 0px 19px;
         height: 30px;
         border-radius: 15px;
         text-align: center;
@@ -442,7 +488,7 @@ box-shadow: 0px 2px 4px 0px rgba(108, 111, 115, 0.1);
 .products__inner-botbtn {
     text-align: center;
     button {
-        width: 190px;
+        padding: 0px 33px;
         height: 55px;
         font-size: 16px;
         margin-top: 55px;
