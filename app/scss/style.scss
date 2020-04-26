@@ -675,28 +675,108 @@
         justify-content: space-between;
         align-items: center;
         flex-direction: column;
-        color: #feb71d; 
         .item__icon {
             span {
             font-size: 48px;
             }
         }
         .item__number {
+            margin-top: 40px;
             font-size: 36px;
         }
         .item__desc {
+            margin-top: 15px;
             font-size: 18px;
             color: #fff;
         }
     }
-    .sales {
-        color: #58c9e9;
+}
+
+.yellow {
+    color: #feb71d; 
+}
+.blue {
+    color: #58c9e9;
+}
+.green {
+    color: #77de51;
+}
+.red {
+    color: #ff6a6d;
+}
+.purple {
+    color: #7f4ec2;
+}
+
+//end statistics
+//start advantages
+.advantages{
+    min-height: 1190px;
+    background-color: #fff;
+    padding: 120px 0px;
+    &__top {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
     }
-    .customers {
-        color: #77de51;
+    &__title {
+        font-size: 36px;
+        line-height: 36px;
+        color: #000;
+        font-weight: 400;
+        span {
+            color: $blue;
+        }
     }
-    .members {
-        color: #ff6a6d;
+    &__text {
+        text-align: center;
+        max-width: 680px;
+        font-size: 16px;
+        font-weight: 400;
+        color: #555555;
+        margin-top: 30px;
+        margin-bottom: 60px;
+    }
+    &__inner {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        &-item {
+            max-width: 360px;
+            border-radius: 4px;
+            box-shadow: 0px 2px 50px 0px rgba(0, 0, 0, 0.08);
+            position: relative;
+            padding: 50px 30px;
+            margin-bottom: 30px;
+            text-align: center;
+        }
+    }
+    &__item-num {
+        font-size: 48px;
+        font-weight: 300;
+        color: #5c87f8;
+        opacity: 0.2;
+        position: absolute;
+        left: 20px;
+        top: 20px;
+    }
+    &__item-icon {
+        color: $blue;
+        font-size: 60px;
+    }
+    &__item-title {
+        font-size: 24px;
+        font-weight: 400;
+        color: #000;
+        padding-top: 40px;
+        padding-bottom: 30px;
+    }
+    &__item-text {
+        font-size: 16px;
+        line-height: 30px;
     }
 }
-//end statistics
+
+//end advantages
