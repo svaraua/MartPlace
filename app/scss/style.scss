@@ -822,3 +822,103 @@
     }
 }
 //end join
+//start feedback
+.feedback {
+    min-height: 840px;
+    padding: 120px 0px;
+    &__inner {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__item {
+        box-shadow: 0px 2px 50px 0px rgba(0, 0, 0, 0.08);
+        max-width: 555px;
+        padding: 50px 40px;
+        border-left: 2px solid $blue;
+        position: relative;
+    }
+    &__user {
+        display: flex;
+        justify-content: flex-start;
+        .user__avatar {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            margin-right: 20px;
+        }
+        .user__name {
+            color: #000;
+            font-size: 20px;
+            font-weight: 400;
+        }
+        .user_job {
+            font-size: 16px;
+            font-weight: 400;
+            color: #555555;
+        }
+    }
+    &__icon {
+        position: absolute;
+        top: 55px;
+        right: 45px;
+        font-size: 60px;
+        color: #e8e8e8;
+    }
+    &__text {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 30px;
+        padding-top: 25px;
+    }
+}
+
+//end feedback
+.news {
+    min-height: 885px;
+    padding: 120px 0px;
+    background-color: $bg-grey;
+    &__inner {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__content {
+        max-height: 186px;
+    }
+    &__title {
+        font-size: 22px;
+        font-weight: 500;
+        line-height: 28px;
+        padding: 25px 30px 0px;
+    }
+    &__text {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 30px;
+        padding: 20px 30px 25px;
+        overflow: hidden;
+    }
+    &__details {
+        color: #7e7e7e;
+        font-size: 15px;
+        font-weight: 400;
+    }
+    &__date {
+        width: 50%;
+        color: #999;
+        line-height: 30px;
+        padding: 5px 30px;
+        margin: 10px 0px;
+        border-right: 1px solid $bg-grey;
+        span {
+            color: $blue;
+        }
+    }
+    &__views {
+        margin-right: 30px;
+    }
+}
+//end feedback
