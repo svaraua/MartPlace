@@ -1,0 +1,718 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MartPlace</title>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
+    <link rel="stylesheet" href="css/libs.min.css">
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="page-content">
+            <header class="header">
+                <div class="header__top">
+                    <div class="container">
+                        <div class="header__inner">
+                            <div class="header__logo">
+                                <a href="#">
+                                    <img src="images/logo.png" alt="">
+                                </a>
+                            </div>
+                            <div class="header__btn">
+                                <a href="#">
+                                    Become a Seller
+                                </a>
+                            </div>
+                            <div class="header__user">
+                                <a class="header__user-avatar" href="#"
+                                    style="background-image: url(images/avatar.png);">
+
+                                </a>
+                                <div class="header__user-box">
+                                    <a class="header__user-name" href="#">
+                                        Taofiq Hakim
+                                    </a>
+                                    <a class="header__user-balance" href="#">
+                                        $20.45
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="header__menu">
+                    <div class="container">
+                        <div class="menu__inner">
+                            <nav class="menu">
+                                <ul class="menu__list">
+                                    <li>
+                                        <a href="#">HOME</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">all products</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">wordpress</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">festures</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Pages</a>
+                                    </li>
+                                </ul>
+                            </nav>
+                            <div class="menu__inner-form">
+                                <form>
+                                    <input type="search" placeholder="Search product here..." required>
+                                    <button type="submit">
+                                        <span class="lnr lnr-magnifier"></span>
+                                    </button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <main>
+                <section class="search page-search">
+                    <div class="container">
+                        <div class="page-search__inner">
+                            <div class="page-search__title">
+                                4,572 wordpress themes, made with love
+                            </div>
+                            <div class="page-search__form">
+                                <form>
+                                    <input type="search" placeholder="Search your product" required>
+                                    <button type="submit">
+                                        Search
+                                    </button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <div class="breadcrumbs">
+                    <div class="container">
+                        <div class="breadcrumbs__inner">
+                            <ul class="breadcrumbs__list">
+                                <li><a href="#">Home</a></li>
+                                <li><a href="#">Category Page Grid</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <section class="page-grid">
+                    <div class="container-fluid">
+                        <div class="page-grid__topbar">
+                            <div class="container">
+                                <div class="topbar">
+                                    <div class="topbar__buttons-wrap">
+                                        <button type="button" class="topbar__btn topbar__btn--active">
+                                            New Products
+                                        </button>
+                                        <button type="button" class="topbar__btn">
+                                            Popular Products
+                                        </button>
+                                    </div>
+
+                                    <form class="topbar__filter-form">
+                                        <select class="topbar__sort" name="price">
+                                            <option selected value="Low to High"><span>Price :</span> Low to High<span
+                                                    class="lnr lnr-chevron-down"></span></option>
+                                            <option value="High to Low"><span>Price :</span> High to Low</option>
+                                        </select>
+                                        <select class="topbar__sort" name="items">
+                                            <option selected value="12 Items Per Page">12 Items Per Page</option>
+                                            <option value="24 Items Per Page">24 Items Per Page</option>
+                                        </select>
+                                        <div class="topbar__view">
+                                            <button type="button" class="topbar__view-btn topbar__view-btn--active">
+                                                <span class="lnr lnr-frame-expand"></span>
+                                            </button>
+                                            <button type="button" class="topbar__view-btn">
+                                                <span class="lnr lnr-list"></span>
+                                            </button>
+                                        </div>
+                                    </form>
+
+                                </div>
+
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <div class="page-grid__inner">
+
+
+                            <aside class="page-grid__aside">
+                                <div class="page-grid__aside-filter">
+                                    <div class="page-grid__aside-title">
+                                        Categories <span class="lnr lnr-chevron-down page-grid__aside-arrow"></span>
+                                    </div>
+                                    <ul class="page-grid__aside-list">
+                                        <li class="page-grid__list-item"><span class="lnr lnr-chevron-right"></span><a
+                                                class="page-grid__list-link page-grid__list-link--active"
+                                                href="#">Wordpress</a><span>35</span></li>
+                                        <li class="page-grid__list-item"><span class="lnr lnr-chevron-right"></span><a
+                                                class="page-grid__list-link" href="#">Landing Page</a><span>45</span>
+                                        </li>
+                                        <li class="page-grid__list-item"><span class="lnr lnr-chevron-right"></span><a
+                                                class="page-grid__list-link" href="#">Psd Template</a><span>13</span>
+                                        </li>
+                                        <li class="page-grid__list-item"><span class="lnr lnr-chevron-right"></span><a
+                                                class="page-grid__list-link" href="#">Plugins</a><span>08</span></li>
+                                        <li class="page-grid__list-item"><span class="lnr lnr-chevron-right"></span><a
+                                                class="page-grid__list-link" href="#">HTML Template</a><span>34</span>
+                                        </li>
+                                        <li class="page-grid__list-item"><span class="lnr lnr-chevron-right"></span><a
+                                                class="page-grid__list-link" href="#">Components</a><span>78</span></li>
+                                        <li class="page-grid__list-item"><span class="lnr lnr-chevron-right"></span><a
+                                                class="page-grid__list-link" href="#">Joomla Template</a><span>26</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="page-grid__aside-filter">
+                                    <div class="page-grid__aside-title">
+                                        Filter Products <span
+                                            class="lnr lnr-chevron-down page-grid__aside-arrow"></span>
+                                    </div>
+                                    <form class="page-grid__aside-form">
+                                        <ul class="page-grid__form-list">
+                                            <li><input class="page-grid__form-item" type="checkbox">Trending Products
+                                            </li>
+                                            <li><input class="page-grid__form-item" type="checkbox">Popular Products
+                                            </li>
+                                            <li><input class="page-grid__form-item" type="checkbox">New Products</li>
+                                            <li><input class="page-grid__form-item" type="checkbox">Best Seller</li>
+                                            <li><input class="page-grid__form-item" type="checkbox">Best Rating</li>
+                                            <li><input class="page-grid__form-item" type="checkbox">Low Price</li>
+                                            <li><input class="page-grid__form-item" type="checkbox">High Price</li>
+                                        </ul>
+                                    </form>
+                                </div>
+                                <div class="page-grid__aside-filter">
+                                    <div class="page-grid__aside-title">
+                                        Pricing Range <span class="lnr lnr-chevron-down page-grid__aside-arrow"></span>
+                                    </div>
+                                    <form class="page-grid__price-range">
+                                        <input type="text" class="js-range-slider" name="my_range" value="" />
+                                        <button type="submit" class="page-grid__price-btn">
+                                            Search Update
+                                        </button>
+                                    </form>
+
+                                </div>
+
+                            </aside>
+                            <div class="page-grid__product-content">
+
+                                <div class="page-grid__product-item mix category-wordpress">
+                                    <div class="page-grid__item-img"
+                                        style="background-image: url(images/grid-bg.jpg);">
+                                    </div>
+                                    <div class="page-grid__item-content">
+                                        <div class="page-grid__item-title">
+                                            Finance and Consulting
+                                            Business Theme
+                                        </div>
+                                        <div class="page-grid__item-info">
+                                            <div class="item__info-avatar"
+                                                style="background-image: url(images/avatar-mini.png);">
+                                            </div>
+                                            <a class="page-grid__author-link" href="#">Theme-Valley</a>
+                                        </div>
+                                        <div class="page-grid__item-descr">
+                                            <div class="rate-star" data-rateyo-rating="4.5"></div>
+                                            <span class="lnr lnr-cart item-cart"> 427</span>
+                                        </div>
+                                    </div>
+                                    <div class="product__item-details">
+                                        <div class="product__item-details-price">
+                                            $18
+                                        </div>
+                                        <div class="page-grid__item-category">
+                                            <div class="item__info-category-logo"
+                                                style="background-image: url(images/wpress-icon.png);">
+                                            </div>
+                                            <div class="page-grid__category-name">Wordpress</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="page-grid__product-item mix category-wordpress">
+                                    <div class="page-grid__item-img"
+                                        style="background-image: url(images/grid-bg.jpg);">
+                                    </div>
+                                    <div class="page-grid__item-content">
+                                        <div class="page-grid__item-title">
+                                            Finance and Consulting
+                                            Business Theme
+                                        </div>
+                                        <div class="page-grid__item-info">
+                                            <div class="item__info-avatar"
+                                                style="background-image: url(images/avatar-mini.png);">
+                                            </div>
+                                            <a class="page-grid__author-link" href="#">Theme-Valley</a>
+                                        </div>
+                                        <div class="page-grid__item-descr">
+                                            <div class="rate-star" data-rateyo-rating="4.5"></div>
+                                            <span class="lnr lnr-cart item-cart"> 427</span>
+                                        </div>
+                                    </div>
+                                    <div class="product__item-details">
+                                        <div class="product__item-details-price">
+                                            $18
+                                        </div>
+                                        <div class="page-grid__item-category">
+                                            <div class="item__info-category-logo"
+                                                style="background-image: url(images/wpress-icon.png);">
+                                            </div>
+                                            <div class="page-grid__category-name">Wordpress</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="page-grid__product-item mix category-wordpress">
+                                    <div class="page-grid__item-img"
+                                        style="background-image: url(images/grid-bg.jpg);">
+                                    </div>
+                                    <div class="page-grid__item-content">
+                                        <div class="page-grid__item-title">
+                                            Finance and Consulting
+                                            Business Theme
+                                        </div>
+                                        <div class="page-grid__item-info">
+                                            <div class="item__info-avatar"
+                                                style="background-image: url(images/avatar-mini.png);">
+                                            </div>
+                                            <a class="page-grid__author-link" href="#">Theme-Valley</a>
+                                        </div>
+                                        <div class="page-grid__item-descr">
+                                            <div class="rate-star" data-rateyo-rating="4.5"></div>
+                                            <span class="lnr lnr-cart item-cart"> 427</span>
+                                        </div>
+                                    </div>
+                                    <div class="product__item-details">
+                                        <div class="product__item-details-price">
+                                            $18
+                                        </div>
+                                        <div class="page-grid__item-category">
+                                            <div class="item__info-category-logo"
+                                                style="background-image: url(images/wpress-icon.png);">
+                                            </div>
+                                            <div class="page-grid__category-name">Wordpress</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="page-grid__product-item mix category-wordpress">
+                                    <div class="page-grid__item-img"
+                                        style="background-image: url(images/grid-bg.jpg);">
+                                    </div>
+                                    <div class="page-grid__item-content">
+                                        <div class="page-grid__item-title">
+                                            Finance and Consulting
+                                            Business Theme
+                                        </div>
+                                        <div class="page-grid__item-info">
+                                            <div class="item__info-avatar"
+                                                style="background-image: url(images/avatar-mini.png);">
+                                            </div>
+                                            <a class="page-grid__author-link" href="#">Theme-Valley</a>
+                                        </div>
+                                        <div class="page-grid__item-descr">
+                                            <div class="rate-star" data-rateyo-rating="4.5"></div>
+                                            <span class="lnr lnr-cart item-cart"> 427</span>
+                                        </div>
+                                    </div>
+                                    <div class="product__item-details">
+                                        <div class="product__item-details-price">
+                                            $18
+                                        </div>
+                                        <div class="page-grid__item-category">
+                                            <div class="item__info-category-logo"
+                                                style="background-image: url(images/wpress-icon.png);">
+                                            </div>
+                                            <div class="page-grid__category-name">Wordpress</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="page-grid__product-item mix category-wordpress">
+                                    <div class="page-grid__item-img"
+                                        style="background-image: url(images/grid-bg.jpg);">
+                                    </div>
+                                    <div class="page-grid__item-content">
+                                        <div class="page-grid__item-title">
+                                            Finance and Consulting
+                                            Business Theme
+                                        </div>
+                                        <div class="page-grid__item-info">
+                                            <div class="item__info-avatar"
+                                                style="background-image: url(images/avatar-mini.png);">
+                                            </div>
+                                            <a class="page-grid__author-link" href="#">Theme-Valley</a>
+                                        </div>
+                                        <div class="page-grid__item-descr">
+                                            <div class="rate-star" data-rateyo-rating="4.5"></div>
+                                            <span class="lnr lnr-cart item-cart"> 427</span>
+                                        </div>
+                                    </div>
+                                    <div class="product__item-details">
+                                        <div class="product__item-details-price">
+                                            $18
+                                        </div>
+                                        <div class="page-grid__item-category">
+                                            <div class="item__info-category-logo"
+                                                style="background-image: url(images/wpress-icon.png);">
+                                            </div>
+                                            <div class="page-grid__category-name">Wordpress</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="page-grid__product-item mix category-wordpress">
+                                    <div class="page-grid__item-img"
+                                        style="background-image: url(images/grid-bg.jpg);">
+                                    </div>
+                                    <div class="page-grid__item-content">
+                                        <div class="page-grid__item-title">
+                                            Finance and Consulting
+                                            Business Theme
+                                        </div>
+                                        <div class="page-grid__item-info">
+                                            <div class="item__info-avatar"
+                                                style="background-image: url(images/avatar-mini.png);">
+                                            </div>
+                                            <a class="page-grid__author-link" href="#">Theme-Valley</a>
+                                        </div>
+                                        <div class="page-grid__item-descr">
+                                            <div class="rate-star" data-rateyo-rating="4.5"></div>
+                                            <span class="lnr lnr-cart item-cart"> 427</span>
+                                        </div>
+                                    </div>
+                                    <div class="product__item-details">
+                                        <div class="product__item-details-price">
+                                            $18
+                                        </div>
+                                        <div class="page-grid__item-category">
+                                            <div class="item__info-category-logo"
+                                                style="background-image: url(images/wpress-icon.png);">
+                                            </div>
+                                            <div class="page-grid__category-name">Wordpress</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="page-grid__product-item mix category-wordpress">
+                                    <div class="page-grid__item-img"
+                                        style="background-image: url(images/grid-bg.jpg);">
+                                    </div>
+                                    <div class="page-grid__item-content">
+                                        <div class="page-grid__item-title">
+                                            Finance and Consulting
+                                            Business Theme
+                                        </div>
+                                        <div class="page-grid__item-info">
+                                            <div class="item__info-avatar"
+                                                style="background-image: url(images/avatar-mini.png);">
+                                            </div>
+                                            <a class="page-grid__author-link" href="#">Theme-Valley</a>
+                                        </div>
+                                        <div class="page-grid__item-descr">
+                                            <div class="rate-star" data-rateyo-rating="4.5"></div>
+                                            <span class="lnr lnr-cart item-cart"> 427</span>
+                                        </div>
+                                    </div>
+                                    <div class="product__item-details">
+                                        <div class="product__item-details-price">
+                                            $18
+                                        </div>
+                                        <div class="page-grid__item-category">
+                                            <div class="item__info-category-logo"
+                                                style="background-image: url(images/wpress-icon.png);">
+                                            </div>
+                                            <div class="page-grid__category-name">Wordpress</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="page-grid__product-item mix category-wordpress">
+                                    <div class="page-grid__item-img"
+                                        style="background-image: url(images/grid-bg.jpg);">
+                                    </div>
+                                    <div class="page-grid__item-content">
+                                        <div class="page-grid__item-title">
+                                            Finance and Consulting
+                                            Business Theme
+                                        </div>
+                                        <div class="page-grid__item-info">
+                                            <div class="item__info-avatar"
+                                                style="background-image: url(images/avatar-mini.png);">
+                                            </div>
+                                            <a class="page-grid__author-link" href="#">Theme-Valley</a>
+                                        </div>
+                                        <div class="page-grid__item-descr">
+                                            <div class="rate-star" data-rateyo-rating="4.5"></div>
+                                            <span class="lnr lnr-cart item-cart"> 427</span>
+                                        </div>
+                                    </div>
+                                    <div class="product__item-details">
+                                        <div class="product__item-details-price">
+                                            $18
+                                        </div>
+                                        <div class="page-grid__item-category">
+                                            <div class="item__info-category-logo"
+                                                style="background-image: url(images/wpress-icon.png);">
+                                            </div>
+                                            <div class="page-grid__category-name">Wordpress</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="page-grid__product-item mix category-wordpress">
+                                    <div class="page-grid__item-img"
+                                        style="background-image: url(images/grid-bg.jpg);">
+                                    </div>
+                                    <div class="page-grid__item-content">
+                                        <div class="page-grid__item-title">
+                                            Finance and Consulting
+                                            Business Theme
+                                        </div>
+                                        <div class="page-grid__item-info">
+                                            <div class="item__info-avatar"
+                                                style="background-image: url(images/avatar-mini.png);">
+                                            </div>
+                                            <a class="page-grid__author-link" href="#">Theme-Valley</a>
+                                        </div>
+                                        <div class="page-grid__item-descr">
+                                            <div class="rate-star" data-rateyo-rating="4.5"></div>
+                                            <span class="lnr lnr-cart item-cart"> 427</span>
+                                        </div>
+                                    </div>
+                                    <div class="product__item-details">
+                                        <div class="product__item-details-price">
+                                            $18
+                                        </div>
+                                        <div class="page-grid__item-category">
+                                            <div class="item__info-category-logo"
+                                                style="background-image: url(images/wpress-icon.png);">
+                                            </div>
+                                            <div class="page-grid__category-name">Wordpress</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="page-grid__product-item mix category-wordpress">
+                                    <div class="page-grid__item-img"
+                                        style="background-image: url(images/grid-bg.jpg);">
+                                    </div>
+                                    <div class="page-grid__item-content">
+                                        <div class="page-grid__item-title">
+                                            Finance and Consulting
+                                            Business Theme
+                                        </div>
+                                        <div class="page-grid__item-info">
+                                            <div class="item__info-avatar"
+                                                style="background-image: url(images/avatar-mini.png);">
+                                            </div>
+                                            <a class="page-grid__author-link" href="#">Theme-Valley</a>
+                                        </div>
+                                        <div class="page-grid__item-descr">
+                                            <div class="rate-star" data-rateyo-rating="4.5"></div>
+                                            <span class="lnr lnr-cart item-cart"> 427</span>
+                                        </div>
+                                    </div>
+                                    <div class="product__item-details">
+                                        <div class="product__item-details-price">
+                                            $18
+                                        </div>
+                                        <div class="page-grid__item-category">
+                                            <div class="item__info-category-logo"
+                                                style="background-image: url(images/wpress-icon.png);">
+                                            </div>
+                                            <div class="page-grid__category-name">Wordpress</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="page-grid__product-item mix category-wordpress">
+                                    <div class="page-grid__item-img"
+                                        style="background-image: url(images/grid-bg.jpg);">
+                                    </div>
+                                    <div class="page-grid__item-content">
+                                        <div class="page-grid__item-title">
+                                            Finance and Consulting
+                                            Business Theme
+                                        </div>
+                                        <div class="page-grid__item-info">
+                                            <div class="item__info-avatar"
+                                                style="background-image: url(images/avatar-mini.png);">
+                                            </div>
+                                            <a class="page-grid__author-link" href="#">Theme-Valley</a>
+                                        </div>
+                                        <div class="page-grid__item-descr">
+                                            <div class="rate-star" data-rateyo-rating="4.5"></div>
+                                            <span class="lnr lnr-cart item-cart"> 427</span>
+                                        </div>
+                                    </div>
+                                    <div class="product__item-details">
+                                        <div class="product__item-details-price">
+                                            $18
+                                        </div>
+                                        <div class="page-grid__item-category">
+                                            <div class="item__info-category-logo"
+                                                style="background-image: url(images/wpress-icon.png);">
+                                            </div>
+                                            <div class="page-grid__category-name">Wordpress</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="page-grid__product-item mix category-wordpress">
+                                    <div class="page-grid__item-img"
+                                        style="background-image: url(images/grid-bg.jpg);">
+                                    </div>
+                                    <div class="page-grid__item-content">
+                                        <div class="page-grid__item-title">
+                                            Finance and Consulting
+                                            Business Theme
+                                        </div>
+                                        <div class="page-grid__item-info">
+                                            <div class="item__info-avatar"
+                                                style="background-image: url(images/avatar-mini.png);">
+                                            </div>
+                                            <a class="page-grid__author-link" href="#">Theme-Valley</a>
+                                        </div>
+                                        <div class="page-grid__item-descr">
+                                            <div class="rate-star" data-rateyo-rating="4.5"></div>
+                                            <span class="lnr lnr-cart item-cart"> 427</span>
+                                        </div>
+                                    </div>
+                                    <div class="product__item-details">
+                                        <div class="product__item-details-price">
+                                            $18
+                                        </div>
+                                        <div class="page-grid__item-category">
+                                            <div class="item__info-category-logo"
+                                                style="background-image: url(images/wpress-icon.png);">
+                                            </div>
+                                            <div class="page-grid__category-name">Wordpress</div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="join2">
+                    <div class="container__fluid">
+                        <div class="join2__inner">
+                            <div class="join2__title">
+                                Ready to Join Our Marketplace!
+                            </div>
+                            <div class="join2__text">
+                                Over 25,000 designers and developers trust the MartPlace.
+                            </div>
+                            <a class="join2__btn" href="#">
+                                Join Us Today
+                            </a>
+                        </div>
+                    </div>
+                </section>
+            </main>
+        </div>
+        <footer class="footer">
+            <div class="footer__content">
+                <div class="container">
+                    <div class="footer__inner">
+                        <div class="footer__col">
+                            <div class="footer__logo">
+                                <a href="#">
+                                    <img src="images/logo-footer.png" alt="">
+                                </a>
+                            </div>
+                            <div class="footer__text">
+                                Nunc placerat mi id nisi interdum they mollis. Praesent pharetra, justo ut scel erisque
+                                the
+                                mattis, leo quam.
+                            </div>
+                            <a href="tel:67898752235" class="footer__info">
+                                <span class="lnr lnr-phone-handset"></span>Phone: +6789-875-2235
+                            </a>
+                            <div class="footer__info">
+                                <span class="lnr lnr-envelope"></span>support@aazztech.com
+                            </div>
+                            <div class="footer__address">
+                                <span class="lnr lnr-map-marker"></span>
+                                <div>202 New Hampshire Avenue
+                                    Northwest #100, New York-2573</div>
+                            </div>
+                        </div>
+                        <div class="footer__col col__menu">
+                            <div class="footer__title">
+                                Our Company
+                            </div>
+                            <ul class="footer__list">
+                                <li><a href="#">About Us</a></li>
+                                <li><a href="#">How It Work</a></li>
+                                <li><a href="#">Affiliates</a></li>
+                                <li><a href="#">Testimonials</a></li>
+                                <li><a href="#">Contact Us</a></li>
+                                <li><a href="#">Copyright Notice</a></li>
+                                <li><a href="#">Blog</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer__col col__menu">
+                            <div class="footer__title">
+                                Help Support
+                            </div>
+                            <ul class="footer__list">
+                                <li><a href="#">Support Forum</a></li>
+                                <li><a href="#">Terms & Conditions</a></li>
+                                <li><a href="#">Support Policy</a></li>
+                                <li><a href="#">Refund Policy</a></li>
+                                <li><a href="#">FAQs</a></li>
+                                <li><a href="#">Buyers Faq</a></li>
+                                <li><a href="#">Sellers Faq</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer__col col__news">
+                            <div class="footer__title">
+                                Newsletter
+                            </div>
+                            <div class="footer__text">
+                                Subscribe to get the latest news, update and offer information. Don't worry, we won't
+                                send
+                                spam!
+                            </div>
+                            <div class="footer__form">
+                                <form>
+                                    <input type="email" placeholder="Enter email">
+                                    <button type="submit">Submit</button>
+                                </form>
+                            </div>
+                            <ul class="footer__social">
+                                <li><a href="#" class="facebook"></a></li>
+                                <li><a href="#" class="twitter"></a></li>
+                                <li><a href="#" class="google"></a></li>
+                                <li><a href="#" class="pinterest"></a></li>
+                                <li><a href="#" class="linkedin"></a></li>
+                                <li><a href="#" class="ball"></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__copy">
+                <div class="container">
+                    <div class="footer__copy--text">
+                        ©2017 <a href="#">MartPlace</a>. All rights reserved. Created by <a href="#">AazzTech</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/libs.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
